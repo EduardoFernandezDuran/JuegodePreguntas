@@ -25,7 +25,12 @@ public class EntornoPreguntas {
             "¿De que color es el Girasol?",
             "¿Cuantos segundos tiene un minuto?",
             "¿Cual es la capital de España?",
-            "¿Que marca de ropa tiene un cocodrilo de logo?"
+            "¿Que marca de ropa tiene un cocodrilo de logo?",
+            "¿Quién fue el primer presidente de Estados Unidos?",
+            "¿Cuál es la capital de Japón?",
+            "¿En qué año se llevó a cabo la Revolución Rusa?",
+            "¿Cuál es la montaña más alta del mundo?",
+            "¿Quién escribió el Quijote?"
         };
 
         String[] respuestas = {
@@ -38,7 +43,13 @@ public class EntornoPreguntas {
             "amarillo",
             "60 segundos",
             "Madrid",
-            "lacoste"
+            "lacoste",
+            "george Washington",
+            "tokio",
+            "1917",
+            "everest",
+            "miguel de cervantes"
+
 
         };
 
@@ -47,10 +58,10 @@ public class EntornoPreguntas {
 
         // Iniciar el juego
         System.out.println("¡Bienvenido al juego de cultura general!");
-        System.out.println("Responde correctamente a 5 preguntas.");
+        System.out.println("Responde correctamente a 15 preguntas.");
 
         int puntaje = 0;
-        int preguntasTotales = 5;
+        int preguntasTotales = 15;
 
         for (int i = 0; i < preguntasTotales; i++) {
             int indice = indicesPreguntas[i];
