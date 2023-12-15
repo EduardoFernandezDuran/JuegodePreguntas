@@ -1,6 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.entornopreguntas;
 
@@ -23,7 +20,12 @@ public class EntornoPreguntas {
             "¿En qué año se fundó la ONU?",
             "¿Quién escribió 'Cien años de soledad'?",
             "¿Cuál es el río más largo del mundo?",
-            "¿Cuántos continentes hay en el mundo?"
+            "¿Cuántos continentes hay en el mundo?",
+            "¿Cuanto dura un partido de futbol?",
+            "¿De que color es el Girasol?",
+            "¿Cuantos segundos tiene un minuto?",
+            "¿Cual es la capital de España?",
+            "¿Que marca de ropa tiene un cocodrilo de logo?"
         };
 
         String[] respuestas = {
@@ -31,7 +33,13 @@ public class EntornoPreguntas {
             "1945",
             "gabriel garcía márquez",
             "amazonas",
-            "7"
+            "7",
+            "90 minutos",
+            "amarillo",
+            "60 segundos",
+            "Madrid",
+            "lacoste"
+
         };
 
         // Barajamos las preguntas
